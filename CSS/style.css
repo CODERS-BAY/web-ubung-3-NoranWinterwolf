@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
 }
@@ -9,6 +11,8 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -18,10 +22,13 @@ nav a {
     font-size: 140%;
     color: rgb(255, 255, 255);
     font-weight: bolder;
+    background-color: rgb(81, 116, 0);
+    margin: 0.6rem;
+    border-radius: 15px;
 }
 
 nav a:hover {
-    color: rgb(81, 116, 0);
+    color: rgb(8, 12, 0);
 }
 
 nav a.aktuell {
@@ -85,6 +92,16 @@ footer {
 footer p {
     color: white;
     padding: 2rem;
+    margin: 0;
+}
+
+span.name {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+ul.quellen a {
+    font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
